@@ -49,7 +49,7 @@ android {
                 keyAlias System.getenv()["FCI_KEY_ALIAS"]
                 keyPassword System.getenv()["FCI_KEY_PASSWORD"]
             } else {
-                storeFile file("/Users/souvikbiswas/Android keystore/app.keystore")
+                storeFile file("/path/to/local/myreleasekey.keystore")
                 storePassword "password"
                 keyAlias "MyReleaseKey"
                 keyPassword "password"
