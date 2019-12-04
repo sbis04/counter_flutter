@@ -11,7 +11,6 @@ workflows:
     scripts:
       - |
         # set up key.properties
-        rm -f ~/.android/debug.keystore
         echo $CM_KEYSTORE | base64 --decode > /tmp/keystore.keystore
         cat >> "$FCI_BUILD_DIR/android/key.properties" <<EOF
         storePassword=$CM_KEYSTORE_PASSWORD
