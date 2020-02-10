@@ -106,7 +106,7 @@ workflows:
         keychain add-certificates --certificate /tmp/certificate.p12 --certificate-password $CM_CERTIFICATE_PASSWORD
       - flutter build ios --debug --no-codesign
       - xcode-project use-profiles
-      - xcode-project build-ipa --workspace ios/Runner.xcworkspace --config Debug
+      - xcode-project build-ipa --workspace ios/Runner.xcworkspace --config Release
     artifacts:
       - build/ios/ipa/*.ipa
       - /tmp/xcodebuild_logs/*.log
