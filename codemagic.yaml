@@ -86,6 +86,8 @@ workflows:
     instance_type: mac_pro
     environment:
       flutter: stable
+      xcode: 11.4.1
+      cocoapods: default
     scripts:
       - cd . && flutter packages pub get
       - cd . && flutter test
