@@ -55,7 +55,7 @@ workflows:
         CM_KEYSTORE_PASSWORD: Encrypted(Z0FBQUFBQmZ3UzdvaG1pbnpURHRIZHBETXk3dnYtVTVyRXBLdm8weGpya3VySXNHclpZX0hybElfczFlTXg2dHFwVzVkZmozVFV3MUl4a1AzLTcwTFo4Q2doZnhTTF9tWnc9PQ==)
         CM_KEY_ALIAS_PASSWORD: Encrypted(Z0FBQUFBQmZ3UzdvaG1pbnpURHRIZHBETXk3dnYtVTVyRXBLdm8weGpya3VySXNHclpZX0hybElfczFlTXg2dHFwVzVkZmozVFV3MUl4a1AzLTcwTFo4Q2doZnhTTF9tWnc9PQ==)
         CM_KEY_ALIAS_USERNAME: Encrypted(Z0FBQUFBQmZ3UzdVUm5GZV84X1BDdFVFYmtwNndCS1dVazdDZHk1aXkwSHFwbjIzX3F4eV9NZS16dk5fcTdUenBsVlhJbnNpc2x5YTVDcmF1MFhaQjlyZWZkVm5RYWpWTnc9PQ==)
-      flutter: stable
+      flutter: 1.22
     scripts:
       - |
         # set up key.properties
