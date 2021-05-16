@@ -4,7 +4,7 @@ workflows:
     instance_type: mac_mini
     max_build_duration: 60
     environment:
-      flutter: stable
+      flutter: 1.22.4
     scripts:
       - name: Set up debug keystore
         script: |
@@ -38,7 +38,7 @@ workflows:
     instance_type: mac_mini
     max_build_duration: 60
     environment:
-      flutter: stable
+      flutter: 1.22.4
       xcode: latest
       cocoapods: default
     scripts:
