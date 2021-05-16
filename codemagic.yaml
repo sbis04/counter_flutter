@@ -53,6 +53,7 @@ workflows:
     artifacts:
       - build/**/outputs/**/mapping.txt
       - build/ios/ipa/*.ipa
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
       - /tmp/xcodebuild_logs/*.log
       - flutter_drive.log
     publishing:
